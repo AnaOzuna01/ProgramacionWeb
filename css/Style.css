@@ -31,7 +31,7 @@ header {
 
 .Menu {
     width: 440px;
-    height: 40px;
+    height: 50px;
     border: 1px solid #ccc;
     float: right;
     margin-top: 40px;
@@ -114,26 +114,30 @@ header {
     margin-top: 10px;
 }
 
-#Left {
-    width: 585px;
+#Right {
+    width: 560px;
     height: auto;
     overflow: hidden;
     border: 1px solid #ccc;
     float: left;
     padding: 5px;
-    color: #4682b4;
+    color: #000;
 }
 
 .Image {
-    margin-right: 7px;
     margin-bottom: 7px;
+    margin-top: 16px;
 }
 
-#Right {
-    width: 290px;
-    height: 300px;
+#Left {
+    width: 305px;
+    height: auto;
+    overflow: hidden;
     border: 1px solid #ccc;
     float: right;
+    color: #006699;
+    text-align: center;
+    padding: 5px;
 }
 
 footer {
