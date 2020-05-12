@@ -30,7 +30,7 @@ header {
 }
 
 .Menu {
-    width: 450px;
+    width: 440px;
     height: 40px;
     border: 1px solid #ccc;
     float: right;
@@ -42,7 +42,7 @@ header {
 
 .Menu ul li {
     list-style: none;
-    float: right;
+    float: left;
 }
 
 .Menu ul li a {
@@ -52,8 +52,14 @@ header {
     color: #fff;
 }
 
+.Menu ul li a:hover {
+    background: #e0e0e0;
+    color: #006699;
+    transition: background 1s, color 1s;
+}
+
 #Slide {
-    margin-top: 10px;
+    margin-top: -5px;
     width: 900px;
     height: 250px;
 }
@@ -63,7 +69,7 @@ header {
     height: auto;
     overflow: hidden;
     border: 0px solid;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .First {
@@ -74,6 +80,12 @@ header {
     float: left;
     padding: 5px;
     text-align: center;
+    color: #4682b4;
+}
+
+.Paragraph {
+    color: #707070;
+    text-align: justify;
 }
 
 .Middle {
@@ -109,6 +121,12 @@ header {
     border: 1px solid #ccc;
     float: left;
     padding: 5px;
+    color: #4682b4;
+}
+
+.Image {
+    margin-right: 7px;
+    margin-bottom: 7px;
 }
 
 #Right {
