@@ -35,7 +35,7 @@ header {
     border: 1px solid #ccc;
     float: right;
     margin-top: 40px;
-    background: #006699;
+    background: #E75313;
 }
 
 .Menu ul {}
@@ -91,13 +91,13 @@ header {
 
 .Leer {
     text-decoration: none;
-    border: 1px solid #006699;
+    border: 1px solid #E75313;
     padding: 10px 20px 10px 20px;
     margin: 10px;
 }
 
 .Leer:hover {
-    background: #006699;
+    background: #E75313;
     color: #fff;
     transition: background 1s, color 1s;
 }
@@ -132,7 +132,7 @@ header {
     overflow: hidden;
     border: 1px solid #ccc;
     float: right;
-    color: #006699;
+    color: #E75313;
     text-align: center;
     padding: 5px;
 }
