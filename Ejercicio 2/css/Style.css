@@ -15,7 +15,7 @@ table td:hover {
 }
 
 .Product {
-    background-image: url("fondo_gris.jpg");
+    background-image: url(../images/fondo_gris.jpg);
 }
 
 h1 {
