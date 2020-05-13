@@ -89,6 +89,10 @@ header {
     text-align: justify;
 }
 
+.Country {
+    padding: 5px;
+}
+
 .Leer {
     text-decoration: none;
     border: 1px solid #E75313;
