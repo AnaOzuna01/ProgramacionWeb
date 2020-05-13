@@ -4,16 +4,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Ejemplo de Tabla con CSS</title>
-    <style type="text/css"></style>
+    <title>Tabla</title>
+    <style type="text/css">
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #fbfbfb;
+        }
+    </style>
     <link rel="stylesheet" href="css/Style.css">
 </head>
 
 <body>
+    <h1>Ejemplo de Tabla con CSS</h1> <br>
     <table class="Table">
         <thead>
             <tr>
-                <th class="Bold">Nombre Producto</th>
+                <th>Nombre Producto</th>
                 <th>Venta Semana 1</th>
                 <th>Venta Semana 2</th>
                 <th>Venta Semana 3</th>
@@ -22,7 +31,7 @@
         </thead>
         <tbody>
             <tr>
-                <th>Pastas</th>
+                <th class="Fondo">Pastas</th>
                 <td>125.89</td>
                 <td>159.78</td>
                 <td>130.56</td>
@@ -30,7 +39,7 @@
             </tr>
 
             <tr>
-                <th>Detergente</th>
+                <th class="Fondo">Detergente</th>
                 <td>67.45</td>
                 <td>78.56</td>
                 <td>90.56</td>
@@ -38,7 +47,7 @@
             </tr>
 
             <tr>
-                <th>Sopas</th>
+                <th class="Fondo">Sopas</th>
                 <td>45.67</td>
                 <td>34.45</td>
                 <td>45.89</td>
@@ -46,7 +55,7 @@
             </tr>
 
             <tr>
-                <th>Especias</th>
+                <th class="Fondo">Especias</th>
                 <td>17.56</td>
                 <td>18.67</td>
                 <td>15.89</td>
