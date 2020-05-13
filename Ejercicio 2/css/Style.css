@@ -18,14 +18,11 @@ table td:hover {
     background-image: url(../images/fondo_gris.jpg);
 }
 
-#Even {
-    background: #E6F3FF;
-}
-
 #Odd {
     background: #FFFFCC;
 }
 
-h1 {
+h1,
+h3 {
     text-align: center;
 }
