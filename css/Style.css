@@ -1,0 +1,9 @@
+.jumbotron {
+    background: #A063F9;
+    color: #FFF;
+    padding: 50px 0;
+}
+
+.jumbotron .titulo-blog {
+    font-size: 50px;
+}
