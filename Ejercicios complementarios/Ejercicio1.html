@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFC247;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ana Ozuna</a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03"></div>
+        </nav>
+    </header>
+
+    <section class="jumbotron">
+        <div class="container">
+            <p>Progrmación Web</p>
+            <p>Ejercicios de JavaScript Parte I</p>
+        </div>
+    </section>
+
+    <section class="main container">
+        <div class="row">
+
+            <!--Ejercicio 1-->
+            <section class="posts col-md-12">
+                <div class="card text-center" id="Formulario">
+                    <div class="card-header card text-white bg-danger text-center">Ejercicio 1</div>
+                    <ul>
+                        <li>
+                            <p class="text-justify">Realice una página web que solicite el ingreso alguna de estas palabras (casa, mesa, perro, gato) luego mostrar la palabra traducida en inglés. Es decir, si se ingresa 'casa' debemos mostrar el texto 'house' en la página.</p>
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <script>
+                            var palabra;
+                            palabra = prompt('Ingrese palabras como "casa - mesa - perro - gato" para traducirlas al idioma ingles', '');
+                            switch (palabra) {
+                                case 'casa':
+                                    document.write('Español: casa', '<br>', 'Ingles: house');
+                                    break;
+                                case 'mesa':
+                                    document.write('Español: mesa', '<br>', 'Ingles: table');
+                                    break;
+                                case 'perro':
+                                    document.write('Español: perro', '<br>', 'Ingles: dog');
+                                    break;
+                                case 'gato':
+                                    document.write('Español: gato', '<br>', 'Ingles: cat');
+                                    break;
+                            }
+                        </script>
+
+                    </div>
+                    <div class="card-footer text-muted card text-white bg-danger"></div>
+                </div>
+
+                <br><br>
+            </section>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="text-center">Ana Ozuna - 20175076</p>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
