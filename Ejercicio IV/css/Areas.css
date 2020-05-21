@@ -58,7 +58,7 @@
      text-transform: uppercase;
  }
  
- #menu {
+ #Menu {
      background: -moz-linear-gradient(left bottom, rgb(39, 30, 107) 40%, rgb(11, 6, 43) 70%, rgb(2, 2, 10) 85%);
      background: -ms-linear-gradient(left bottom, rgb(39, 30, 107) 40%, rgb(11, 6, 43) 70%, rgb(2, 2, 10) 85%);
      background: -o-linear-gradient(left bottom, rgb(39, 30, 107) 40%, rgb(11, 6, 43) 70%, rgb(2, 2, 10) 85%);
@@ -68,24 +68,37 @@
      max-width: 1000px;
  }
  
+ .Center {
+     text-align: center;
+     margin-top: 500px;
+     color: black;
+ }
+ 
+ .CenterFig {
+     text-align: center;
+     margin-top: 200px;
+     color: black;
+ }
+ 
  .Circulo {
      border-radius: 75px;
      -moz-border-radius: 75px;
      -ms-border-radius: 75px;
      -o-border-radius: 75px;
      -webkit-border-radius: 75px;
-     background: navy;
+     background: red;
  }
  
  .Cuadrado {
-     background-color: #ccc;
-     width: 15%
+     background-color: goldenrod;
+     width: 330px;
+     height: 200px;
  }
  
  .Triangulo {
-     border-color: transparent transparent yellow transparent;
+     border-color: transparent transparent purple transparent;
      border-style: solid;
-     border-width: 40px;
+     border-width: 150px;
      height: 0;
      width: 0px;
  }
