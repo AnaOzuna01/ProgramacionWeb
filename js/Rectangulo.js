@@ -1,6 +1,10 @@
-var base = prompt('Introduzca la base del rectángulo', '');
-var altura = prompt('Introduzca la altura del rectángulo', '');
-var area;
-area = base * altura
-document.write("<header><h1>El área del rectángulo es: " + area +
-    "</h1><hr /><br /></header>");
+var Base;
+var Altura;
+var Area;
+
+Base = prompt('Introduzca la base del rectángulo: ');
+Altura = prompt('Introduzca la altura del rectángulo: ');
+
+Area = Base * Altura
+
+document.write('<header><h1>El área del rectángulo es: ' + Area + '</h1><hr /><br /></header>');
